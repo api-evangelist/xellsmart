@@ -1,7 +1,24 @@
 aid: xellsmart
-name: xellsmart
-description: xellsmart is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: XellSmart Biomedical
+description: XellSmart Biomedical (士泽生物医药) is a clinical-stage biotechnology company
+  based in Suzhou and Shanghai, China, founded in 2021 by Dr. Xiang Li. The company
+  develops clinical-grade, allogeneic, off-the-shelf iPSC-derived cell therapies for
+  central nervous system diseases, with NMPA- and U.S. FDA-cleared registrational
+  clinical trials in Parkinson's disease, spinal cord injury, and ALS. XellSmart is
+  a Qiming Venture Partners portfolio company and publishes no public developer or
+  API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.xellsmart.com/uploads/allimg/20250904/c41dd315cd97651c5b84601ec1ac3783.svg
 url: https://raw.githubusercontent.com/api-evangelist/xellsmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Cell Therapy
+- Regenerative Medicine
+- Neuroscience
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/xellsmart-domain-security.yml
 - type: Website
-  url: https://xellsmart.com
+  url: https://www.xellsmart.com
+- type: Blog
+  url: https://www.xellsmart.com/gsxw.html
+- type: PrivacyPolicy
+  url: https://www.xellsmart.com/privacy.html
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
