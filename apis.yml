@@ -7,6 +7,17 @@ description: XellSmart Biomedical (士泽生物医药) is a clinical-stage biote
   clinical trials in Parkinson's disease, spinal cord injury, and ALS. XellSmart is
   a Qiming Venture Partners portfolio company and publishes no public developer or
   API surface.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
